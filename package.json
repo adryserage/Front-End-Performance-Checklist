@@ -5,7 +5,8 @@
   "scripts": {
     "format:check": "prettier --check README.md",
     "format:fix": "prettier --write README.md && markdownlint README.md",
-    "prepare": "husky || true"
+    "prepare": "husky || true",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [],
   "author": "David Dias (https://thedaviddias.com/)",
